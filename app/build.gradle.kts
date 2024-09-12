@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.kotlin_app"
+    namespace = "com.example.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.kotlin_app"
+        applicationId = "com.example.app"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -21,10 +21,7 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
     compileOptions {

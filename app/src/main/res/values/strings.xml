@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Kotlin_app</string>
+    <string name="app_name">app</string>
+    <string name="enterkilo">Please enter the kilograms</string>
+    <string name="convert">Convert</string>
+    <string name="intent">Intent</string>
+    <string name="google">Google</string>
 </resources>
